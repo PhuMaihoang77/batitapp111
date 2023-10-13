@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+    
+
+.header {
+
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+.header__nav3-list {
+    list-style: none;
+   padding: 18px;
+   margin: 0;
+   font-weight: 800;
+    
+    
+}
+
+.header__nav3-item {
+    display: inline-block;
+    
+}
+.header__nav3-item--chef{
+    font-size: 30px;
+    padding: 30px;
+}
+.header__nav3-item--fllow{
+    padding: 30px;
+    font-size: 20px;
+}
+.container {
+    width:100vw;
+    height: 95vh;
+
+    background-image: linear-gradient(to right bottom,#EF4776,#515CED) ;
+    
+}
+.container__intruduction{
+    display: flex;
+    list-style: none;
+}
+
+
+    
+.Noidung {
+margin-top: 150px;
+   
+}
+.Noidung__1 {
+    font-size: 59px;
+    list-style: none;
+    
+}
+.Noidung__1_1{
+    list-style: none;
+    margin-top:40px ;
+    font-size: 40px;
+    color: #ffffff;
+}
+.Noidung__1_2{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.footer{
+    
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    background-color: black;
+    color: #ffffff;
+}
+.Email{
+    width: 200px;
+    height: 30px;
+    border-radius: 200px;
+    border: none;
+    
+}
+.Chapnhan{
+    width: 200px;
+    height: 40px;
+    border-radius: 200px;
+    background-color: #F34773;
+   
+}
+
+    
+
+
